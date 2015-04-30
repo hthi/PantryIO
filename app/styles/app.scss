@@ -1,0 +1,132 @@
+body {
+  overflow-x: hidden;
+}
+
+.nav-header{
+  margin-top: 0;
+  background-color: white;
+  height: 120px;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+ul#horizontal-list li{
+  display: inline;
+  padding-left: 100px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.navbar h3 {
+  margin-top: 0;
+  font-size: 60px;
+  text-align: center;
+}
+
+.background-image {
+  margin-right: auto;
+  margin-left: auto;
+  z-index: -10;
+  opacity: 0.8;
+  display: inline;
+  height: 200;
+}
+
+.container {
+/*  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;*/
+  height: 50%;
+}
+
+.text {
+  /*left: 0;*/
+  /*position:absolute;*/
+  text-align:center;
+  /*top: 215px;*/
+  width: 100%;
+  font-size: 20px;
+  padding: 30px;
+  display: inline-block;
+  background-color:rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.text h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.text p {
+  font-size: 30px;
+  color: white;
+}
+
+.recipe {
+  height: 550px;
+}
+
+.container-recipes {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  background-color:rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+#left {
+  margin-top: 50px;
+  width: 45%;
+  position: absolute;
+  left: 0px;
+  height: 70%;
+  padding: 10px;
+}
+
+#right {
+  margin-top: 50px;
+  width: 45%;
+  position: absolute;
+  right: 0px;
+  height: 500px;
+  overflow: scroll;
+  border: 2px solid green;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+#footer {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+}
+
+.oneRecipe {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.oneProfile {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.textImage {
+  background-image: url("http://oi59.tinypic.com/vxgkn8.jpg");
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
